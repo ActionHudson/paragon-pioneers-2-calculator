@@ -21,7 +21,7 @@ import { AlternativeCombinationProvider } from '../../../../common/AlternativeCo
 import { RiverField } from '../../tiles/RiverField'
 
 const ITERATION_TIME_IN_SECONDS = 90
-const PRODUCE_PER_ITERATION = 1
+const PRODUCE_PER_ITERATION = 0.67
 const ITERATION_TIME_IN_DECIMAL = ITERATION_TIME_IN_SECONDS / 60
 const CONSUME_PER_ITERATION = new Map<string, number>([['Water', 4]])
 export const FISHERMANS_HUT_INFO: Building = {
