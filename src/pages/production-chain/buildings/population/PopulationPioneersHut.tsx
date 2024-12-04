@@ -33,7 +33,7 @@ import { FAIR_INFO, Fair } from '../townsmen/Fair'
 const ITERATION_TIME_IN_SECONDS = 1
 const ITERATION_TIME_IN_DECIMAL = ITERATION_TIME_IN_SECONDS / 60
 const CONSUME_PER_ITERATION = new Map<string, number>([
-  ['Fish', 10 / 3780],
+  ['Fish', 10 / 2400],
   ['Water', 1],
   ['Sausage', 10 / 10800],
   ['Cider', 10 / 9450],
